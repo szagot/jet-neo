@@ -37,7 +37,9 @@ headlogo {
   }
 
   .searchcolumn {
-    padding-right: 100px !important;
+    .ui.search {
+      max-width: 400px;
+    }
 
     .ui.icon.input > i.icon {
       opacity: initial;
@@ -45,7 +47,6 @@ headlogo {
 
     @media screen and (max-width: $mobile-bp) {
       display: none !important;
-      padding-right: 0;
     }
   }
 
