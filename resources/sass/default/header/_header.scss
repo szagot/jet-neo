@@ -6,11 +6,11 @@ headlogo {
 }
 
 ._header {
-  background: rgb(255,255,255);
+  background: rgb(255, 255, 255);
   margin-top: 0px;
 
   &.fixed {
-    box-shadow: rgba(0,0,0,.3) 0px 0px 10px 0px;
+    box-shadow: rgba(0, 0, 0, .3) 0px 0px 10px 0px;
 
     @media screen and (max-width: $mobile-bp) {
       box-shadow: none;
@@ -37,12 +37,15 @@ headlogo {
   }
 
   .searchcolumn {
+    padding-right: 100px !important;
+
     .ui.icon.input > i.icon {
       opacity: initial;
     }
 
     @media screen and (max-width: $mobile-bp) {
       display: none !important;
+      padding-right: 0;
     }
   }
 

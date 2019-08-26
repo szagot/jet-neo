@@ -6,11 +6,6 @@
   <div class="ui container">
     <div class="ui middle aligned four column centered grid">
       <div class="row">
-        <div class="ui five wide mobile five wide tablet four wide computer column">
-          <a href="/Home" title="Página Inicial">
-            <img class="ui middle aligned image logo" src="/assets/image/logo/logo.png" alt="@LojaCorp.Control.Company._Company.FantasyName" title="@LojaCorp.Control.Company._Company.FantasyName">
-          </a>
-        </div>
         <div class="ui center aligned six wide tablet seven wide computer column searchcolumn">
           <div class="ui category @_classSearch">
             <div class="ui icon input fluid">
@@ -19,6 +14,11 @@
             </div>
             <div class="results"></div>
           </div>
+        </div>
+        <div class="ui five wide mobile five wide tablet four wide computer column">
+          <a href="/Home" title="Página Inicial">
+            <img class="ui middle aligned image logo" src="/assets/image/logo/logo.png" alt="@LojaCorp.Control.Company._Company.FantasyName" title="@LojaCorp.Control.Company._Company.FantasyName">
+          </a>
         </div>
         @{
             bool isb2b = Session["segment"] != null && Session["segment"].ToString() == "b2b" ? true : false;
