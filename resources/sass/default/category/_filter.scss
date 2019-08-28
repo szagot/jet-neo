@@ -13,6 +13,9 @@
   .ui.accordion {
     display: flex;
     justify-content: space-around;
+    margin: 0 -1rem 20px;
+    max-width: none;
+    align-items: flex-start;    
     
     .column {
       margin: 10px;
