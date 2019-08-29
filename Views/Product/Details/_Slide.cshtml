@@ -14,8 +14,8 @@
     }
 }
 
-<div class="ui grid">
-    <div class="row">
+<div class="ui grid images">
+    <div class="row destaque">
         <div class="column center aligned">
             <div class="ui image">
                 @if (!string.IsNullOrEmpty(tag.Name))
@@ -39,7 +39,7 @@
     </div>
 
 
-    <div class="row one column">
+    <div class="row one column miniaturas">
         <div class="column">
             @Html.Partial("~/Views/Product/Details/_Gallery.cshtml", Model)
         </div>
